@@ -18,6 +18,10 @@
 			#recent { text-decoration: underline; }
 		</style>
 		
+		<script>
+			new Date().toLocaleDateString()
+		</script>
+		
 	</head>
 
 	<body>
@@ -25,7 +29,7 @@
 		<div class="cllflist">
 			<h2>Latest/Recent Additions:</h2>
 			<h5>
-				Last Updated : 16.07.19
+				Last Updated : <script> document.write(new Date().toLocaleDateString()); </script>
 			</h5>
 			<ul>
 				<li><a href="https://pastebin.com/WhiqVzea" id="recent" target="_blank">Recent Additions List</a></li>
